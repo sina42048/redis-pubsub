@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:publisher": "node publisher/index",
+    "start:firstSub": "node subscribers/server1",
+    "start:secondSub": "node subscribers/server2"
+  },
+  "author": "Sina Fathollahi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
